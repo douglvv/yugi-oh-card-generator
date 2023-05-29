@@ -1,0 +1,38 @@
+.fetchCardButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 67px;
+    background-image: linear-gradient(to top, #90593B 0%, #BA7C55 80%, #FFD8B1 100%);
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 750;
+    color: #540b0e;
+    /* text-shadow: 0 .25px #f2f2f2; */
+    margin-top: 2rem;
+}
+
+.fetchCardButton:hover {
+    box-shadow: 0 4px 3px 1px #f3d5b5, 0 6px 8px #8F9092, 0 -4px 4px #FFD8B1, 0 -6px 4px #BA7C55, inset 0 0 3px 3px #90593B;
+}
+
+.fetchCardButton:active {
+    box-shadow: 0 4px 3px 1px #f3d5b5, 0 6px 8px #8F9092, 0 -4px 4px #FFD8B1, 0 -6px 4px #BA7C55, inset 0 0 5px 3px #90593B, inset 0 0 30px #FFD8B1;
+}
+
+.fetchCardButton:focus {
+    box-shadow: 0 4px 3px 1px #f3d5b5, 0 6px 8px #8F9092, 0 -4px 4px #FFD8B1, 0 -6px 4px #BA7C55, inset 0 0 5px 3px #90593B, inset 0 0 30px #FFD8B1;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
